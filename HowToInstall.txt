@@ -1,0 +1,18 @@
+How to CLone Project :
+1. Buka Folder xampp/htdocs/
+2. Buka CMD
+3. Jalankan command git clone https://github.com/salmanfazz/Laundry-Paket3
+4. Setelah selesai, jalankan command composer update
+5. Lalu jalankan copy.env.example .env
+6. Buka file env yang telah digenrate tadi
+7. Buat database laundry terlebih dahulu, lalu edit database yang terdapat pada file .env
+8. Jalankan command php artisan key:generate
+9. Lalu jalankan command php artisan migrate, untuk membuat table database yang telah tersedia pada folder migrate
+10. Jalankan php artisan db:seed, untuk menambahkan data yang telah disediakan
+11. Lalu jalankan php artisan serve
+12. Buka chrome lalu ketikan localhost:8000
+13. Kemudian masukan username dan password untuk Login
+
+Login Admin : username : admin password : admin
+Login Kasir : username : kasir password : kasir
+Login owner : username : owner password : owner
